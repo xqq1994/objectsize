@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.example</groupId>
+    <artifactId>objectsize</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.openjdk.jol/jol-core -->
+        <dependency>
+            <groupId>org.openjdk.jol</groupId>
+            <artifactId>jol-core</artifactId>
+            <version>0.10</version>
+        </dependency>
+        <!--swagger2.0-->
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger2</artifactId>
+            <version>2.9.2</version>
+        </dependency>
+        <!-- 可以解决部分Swagger bug -->
+        <dependency>
+            <groupId>io.swagger</groupId>
+            <artifactId>swagger-models</artifactId>
+            <version>1.6.0</version>
+        </dependency>
+        <!-- 这里使用 swagger-bootstrap-ui 替代了原有丑陋的ui，拯救处女座~ -->
+        <dependency>
+            <groupId>com.github.xiaoymin</groupId>
+            <artifactId>swagger-bootstrap-ui</artifactId>
+            <version>1.9.4</version>
+        </dependency>
+        <!--swagger2.0结束-->
+    </dependencies>
+</project>
