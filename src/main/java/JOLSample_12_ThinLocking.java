@@ -22,6 +22,7 @@ public class JOLSample_12_ThinLocking {
         AiStockDto aiStockDto = new AiStockDto();
         String s = JSON.toJSONString(aiStockDto);
         System.out.println(ClassLayout.parseInstance(s).toPrintable());
+        System.out.println();
     }
 
     public static class A {
