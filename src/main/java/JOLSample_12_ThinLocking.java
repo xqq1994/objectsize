@@ -24,6 +24,8 @@ public class JOLSample_12_ThinLocking {
         System.out.println(ClassLayout.parseInstance(s).toPrintable());
         System.out.println();
         System.out.println();
+        System.out.println();
+        System.out.println();
     }
 
     public static class A {
